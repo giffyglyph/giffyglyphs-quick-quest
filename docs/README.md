@@ -20,7 +20,7 @@ Want to start playing an RPG in just five minutes with just one d20 die? Then tr
 * Includes a **character sheet** and **questboard** for easy prep.
 * Now translated into **French** and **Spanish**.
 
-| Rule                                                 | Character Sheet                                          |
+| Rules                                                | Character Sheet                                          |
 | ---------------------------------------------------- | -------------------------------------------------------- |
 | <img src="./img/quick-quest-rules.jpg" width="100%"> | <img src="./img/quick-quest-character.jpg" width="100%"> |
 
