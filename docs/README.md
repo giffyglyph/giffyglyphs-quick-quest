@@ -9,7 +9,7 @@
 
 Want to start playing an RPG in just five minutes with just one d20 die? Then try **Giffyglyph's Quick Quest**—a 1-page RPG system with a narrative, fast-play focus. Use it for low fantasy quests, high fantasy quests, horror quests, sci-fi quests—whatever your adventuring tastes, **Quick Quest** isn't picky.
 
-* [English](https://github.com/giffyglyph/giffyglyphs-quick-quest/releases/download/v1.1.0/giffyglyphs_quick_quest_v1_1_0_en.pdf), [French](https://github.com/giffyglyph/giffyglyphs-quick-quest/releases/download/v1.1.0/giffyglyphs_quick_quest_v1_1_0_fr.pdf), [Spanish](https://github.com/giffyglyph/giffyglyphs-quick-quest/releases/download/v1.1.0/giffyglyphs_quick_quest_v1_1_0_es.pdf)
+* Get the PDF: [English](https://github.com/giffyglyph/giffyglyphs-quick-quest/releases/download/v1.1.1/giffyglyphs_quick_quest_v1_1_1_en.pdf), [French](https://github.com/giffyglyph/giffyglyphs-quick-quest/releases/download/v1.1.1/giffyglyphs_quick_quest_v1_1_1_fr.pdf), [Spanish](https://github.com/giffyglyph/giffyglyphs-quick-quest/releases/download/v1.1.1/giffyglyphs_quick_quest_v1_1_1_es.pdf)
 * [Read the Changelog](https://github.com/giffyglyph/giffyglyphs-quick-quest/blob/master/docs/CHANGELOG.md) 
 
 ## Features
@@ -26,11 +26,11 @@ Want to start playing an RPG in just five minutes with just one d20 die? Then tr
 
 ## Roadmap
 
-To see what's being worked on right now—and what may be planned for the future—check out the **[projects board](https://github.com/giffyglyph/giffyglyphs-darker-dungeons/projects)**.
+To see what's being worked on right now—and what may be planned for the future—check out the **[projects board](https://github.com/giffyglyph/giffyglyphs-quick-quest/projects)**.
 
 ## Bugs and Feature Suggestions
 
-If you notice a bug or have a feature suggestion, visit the **[issue board](https://github.com/giffyglyph/giffyglyphs-darker-dungeons/issues)** and open a ticket. Please make sure to be as thorough as possible in your report and attach screenshots where appropriate, as low-effort tickets may be closed out-of-hand.
+If you notice a bug or have a feature suggestion, visit the **[issue board](https://github.com/giffyglyph/giffyglyphs-quick-quest/issues)** and open a ticket. Please make sure to be as thorough as possible in your report and attach screenshots where appropriate, as low-effort tickets may be closed out-of-hand.
 
 ### Want to add a translation?
 
