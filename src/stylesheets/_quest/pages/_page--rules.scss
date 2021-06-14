@@ -1,0 +1,88 @@
+.page--rules {
+
+  .column--how-to-play .column__icon img {
+		position: relative;
+		top: -0.6em;
+	}
+
+	.attributes,
+	.archetypes,
+	.success-check {
+		font-family: $font-title;
+		letter-spacing: 1px;
+		line-height: 18px;
+    font-size: 18px;
+    color: #3c5d92;
+
+		.icon {
+			display: inline-block;
+			margin: 0 auto;
+			background: #3c5d92;
+			border-radius: 100%;
+			padding: 0.25cm;
+			box-sizing: border-box;
+      width: 72px;
+      margin-bottom: 4px;
+		}
+	}
+
+	.attributes,
+	.archetypes {
+
+		ul {
+			list-style: none;
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+			text-align: center;
+			font-weight: bold;
+			padding: 0 !important;
+			grid-column-gap: 9px;
+			grid-row-gap: 10px;
+
+			li {
+				margin: 0 !important;
+			}
+
+			.icon.fighter img {
+				position: relative;
+				top: -0.15em;
+				right: -0.2em;
+			}
+
+			li::before {
+				display: none;
+			}
+		}
+	}
+
+	.success-check {
+		text-align: center;
+
+		.icon {
+			padding: 0.1cm;
+      width: 72px;
+      box-sizing: border-box;
+			margin-bottom: 0;
+		}
+
+		span {
+			display: block;
+			// letter-spacing: 2px;
+      // font-weight: bold;
+      
+      &:nth-child(1) {
+        font-size: 22px;
+        margin-top: 7px;
+      }
+
+      &:nth-child(2) {
+        font-size: 14px;
+      }
+
+      &:nth-child(3) {
+        margin-top: 3px;
+        font-size: 22px;
+      }
+		}
+	}
+}

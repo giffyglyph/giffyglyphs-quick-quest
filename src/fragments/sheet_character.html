@@ -1,0 +1,248 @@
+<html>
+	<body>
+		<book class="book">
+			<page class="page page--sheet page--sheet-character">
+				<header class="sheet__header">
+					<div class="sheet__logo">
+						<span>Quick</span>
+						<span>Quest</span>
+						<span class="title">{{msg:sheet.character.title}}</span>
+					</div>
+					<div class="character__name">
+						<div class="field field--input">
+							<label>{{msg:sheet.character.name}}</label>
+							<input type="text">
+						</div>
+					</div>
+					<div class="character__perks">
+						<div class="field field--input">
+							<label>{{msg:sheet.character.perks}}</label>
+							<input type="text">
+						</div>
+					</div>
+					<div class="character__ancestry">
+						<div class="field field--input">
+							<label>{{msg:sheet.character.ancestry}}</label>
+							<input type="text">
+						</div>
+					</div>
+					<div class="character__calling">
+						<div class="field field--input">
+							<label>{{msg:sheet.character.calling}}</label>
+							<input type="text">
+						</div>
+					</div>
+				</header>
+				<section class="sheet__body">
+					<div class="character__attributes">
+						<label class="attributes__heading">{{msg:sheet.character.attributes}}</label>
+						<div class="attributes">
+							<div class="attribute">
+								<div class="attribute__icon">
+									<img src="../images/icons/muscle-up.svg"/>
+								</div>
+								<div class="attribute__title">
+									<div class="title__name">{{msg:common.strength}}</div>
+									<div class="title__code">{{msg:common.str}}</div>
+								</div>
+								<input class="attribute__value" type="text">
+							</div>
+							<div class="attribute">
+								<div class="attribute__icon">
+									<img src="../images/icons/bullseye.svg"/>
+								</div>
+								<div class="attribute__title">
+									<div class="title__name">{{msg:common.dexterity}}</div>
+									<div class="title__code">{{msg:common.dex}}</div>
+								</div>
+								<input class="attribute__value" type="text">
+							</div>
+							<div class="attribute">
+								<div class="attribute__icon">
+									<img src="../images/icons/heart-beats.svg"/>
+								</div>
+								<div class="attribute__title">
+									<div class="title__name">{{msg:common.constitution}}</div>
+									<div class="title__code">{{msg:common.con}}</div>
+								</div>
+								<input class="attribute__value" type="text">
+							</div>
+							<div class="attribute">
+								<div class="attribute__icon">
+									<img src="../images/icons/brain.svg"/>
+								</div>
+								<div class="attribute__title">
+									<div class="title__name">{{msg:common.intelligence}}</div>
+									<div class="title__code">{{msg:common.int}}</div>
+								</div>
+								<input class="attribute__value" type="text">
+							</div>
+							<div class="attribute">
+								<div class="attribute__icon">
+									<img src="../images/icons/light-bulb.svg"/>
+								</div>
+								<div class="attribute__title">
+									<div class="title__name">{{msg:common.wisdom}}</div>
+									<div class="title__code">{{msg:common.wis}}</div>
+								</div>
+								<input class="attribute__value" type="text">
+							</div>
+							<div class="attribute">
+								<div class="attribute__icon">
+									<img src="../images/icons/drama-masks.svg"/>
+								</div>
+								<div class="attribute__title">
+									<div class="title__name">{{msg:common.charisma}}</div>
+									<div class="title__code">{{msg:common.cha}}</div>
+								</div>
+								<input class="attribute__value" type="text">
+							</div>
+						</div>
+					</div>
+					<div class="character__archetypes">
+						<label class="attributes__heading">{{msg:sheet.character.archetypes}}</label>
+						<div class="attributes">
+							<div class="attribute">
+								<div class="attribute__icon">
+									<img src="../images/icons/sharp-axe.svg"/>
+								</div>
+								<div class="attribute__title">
+									<div class="title__name">{{msg:common.fighter}}</div>
+									<div class="title__code">{{msg:common.fig}}</div>
+								</div>
+								<input class="attribute__value" type="text">
+							</div>
+							<div class="attribute">
+								<div class="attribute__icon">
+									<img src="../images/icons/lockpicks.svg"/>
+								</div>
+								<div class="attribute__title">
+									<div class="title__name">{{msg:common.rogue}}</div>
+									<div class="title__code">{{msg:common.rog}}</div>
+								</div>
+								<input class="attribute__value" type="text">
+							</div>
+							<div class="attribute">
+								<div class="attribute__icon">
+									<img src="../images/icons/treasure-map.svg"/>
+								</div>
+								<div class="attribute__title">
+									<div class="title__name">{{msg:common.explorer}}</div>
+									<div class="title__code">{{msg:common.exp}}</div>
+								</div>
+								<input class="attribute__value" type="text">
+							</div>
+							<div class="attribute">
+								<div class="attribute__icon">
+									<img src="../images/icons/book-cover.svg"/>
+								</div>
+								<div class="attribute__title">
+									<div class="title__name">{{msg:common.sage}}</div>
+									<div class="title__code">{{msg:common.sag}}</div>
+								</div>
+								<input class="attribute__value" type="text">
+							</div>
+							<div class="attribute">
+								<div class="attribute__icon">
+									<img src="../images/icons/paint-brush.svg"/>
+								</div>
+								<div class="attribute__title">
+									<div class="title__name">{{msg:common.artist}}</div>
+									<div class="title__code">{{msg:common.art}}</div>
+								</div>
+								<input class="attribute__value" type="text">
+							</div>
+							<div class="attribute">
+								<div class="attribute__icon">
+									<img src="../images/icons/conversation.svg"/>
+								</div>
+								<div class="attribute__title">
+									<div class="title__name">{{msg:common.diplomat}}</div>
+									<div class="title__code">{{msg:common.dip}}</div>
+								</div>
+								<input class="attribute__value" type="text">
+							</div>
+						</div>
+					</div>
+					<div class="fieldset character__resolve">
+						<header class="fieldset__header">
+							<label><span>{{msg:sheet.character.resolve}}</span></label>
+						</header>
+						<section class="fieldset__body">
+							<div class="resolve__used">
+								<input>
+								<span>{{msg:sheet.character.resolve.current}}</span>
+							</div>
+							<div class="resolve__divider">/</div>
+							<div class="resolve__maximum">
+								<input>
+								<span>{{msg:sheet.character.resolve.maximum}}</span>
+							</div>
+						</section>
+					</div>
+					<div class="fieldset character__appearance">
+						<header class="fieldset__header">
+							<label><span>{{msg:sheet.character.appearance}}</span></label>
+						</header>
+						<section class="fieldset__body">
+							<textarea class="field field--textarea"></textarea>
+						</section>
+					</div>
+					<div class="fieldset character__great">
+						<header class="fieldset__header">
+							<label><span>{{msg:sheet.character.great}}</span></label>
+						</header>
+						<section class="fieldset__body">
+							<textarea class="field field--textarea"></textarea>
+						</section>
+					</div>
+					<div class="fieldset character__terrible">
+						<header class="fieldset__header">
+							<label><span>{{msg:sheet.character.bad}}</span></label>
+						</header>
+						<section class="fieldset__body">
+							<textarea class="field field--textarea"></textarea>
+						</section>
+					</div>
+					<div class="character__inventory">
+						<div class="fieldset inventory__gear">
+							<header class="fieldset__header">
+								<label><span>{{msg:sheet.character.gear}}</span></label>
+							</header>
+							<section class="fieldset__body">
+								<textarea class="field field--textarea"></textarea>
+							</section>
+						</div>
+						<div class="fieldset inventory__item-1">
+							<header class="fieldset__header">
+								<label><span>{{msg:sheet.character.item.1}}</span></label>
+							</header>
+							<section class="fieldset__body">
+								<textarea class="field field--textarea"></textarea>
+							</section>
+						</div>
+						<div class="fieldset inventory__item-2">
+							<header class="fieldset__header">
+								<label><span>{{msg:sheet.character.item.2}}</span></label>
+							</header>
+							<section class="fieldset__body">
+								<textarea class="field field--textarea"></textarea>
+							</section>
+						</div>
+						<div class="fieldset inventory__item-3">
+							<header class="fieldset__header">
+								<label><span>{{msg:sheet.character.item.3}}</span></label>
+							</header>
+							<section class="fieldset__body">
+								<textarea class="field field--textarea"></textarea>
+							</section>
+						</div>
+					</div>
+				</section>	
+				<footer class="sheet__footer">
+					<p>{{msg:sheet.character.footer}}</p>
+				</footer>
+			</page>
+		</book>
+	</body>
+</html>

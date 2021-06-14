@@ -1,0 +1,147 @@
+.page--sheet-questboard {
+
+  .sheet__header {
+    display: grid;
+    grid-template-columns: auto 1fr 220px;
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+
+    .sheet__logo {
+      grid-row: 1 / span 2;
+
+      .title {
+        font-size: 0.45em;
+      }
+    }
+
+    .questboard__name {
+      grid-column: 2;
+    }
+
+    .questboard__author {
+      grid-column: 3;
+    }
+
+    .questboard__summary {
+      grid-column: 2 / span 2;
+    }
+  }
+
+  .sheet__body {
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr 2fr;
+    grid-template-columns: 1fr 1fr 240px;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+  }
+
+  .questboard__goals {
+    grid-column: 1 / span 2;
+    display: grid;
+		grid-template-columns: 2fr 1fr;
+		grid-column-gap: 15px;
+  }
+
+  .questboard__locations {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .questboard__villains {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .questboard__locations,
+  .questboard__villains {
+    display: grid;
+    grid-template-rows: auto 1fr 1fr;
+    grid-row-gap: 5px;
+
+    > label {
+      font-family: $font-title;
+      text-transform: uppercase;
+      font-size: 1.25em;
+      display: block;
+      background: black;
+      color: white;
+      width: 100%;
+      text-align: center;
+      margin: 0;
+    }
+  }
+
+  .questboard__ancestries {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+  }
+
+  .questboard__outline {
+    grid-column: 1 / span 2;
+    grid-row: 3 / span 2;
+    display: grid;
+    grid-template-rows: auto 1fr 1fr 1fr;
+    grid-row-gap: 5px;
+
+    > label {
+      font-family: $font-title;
+      text-transform: uppercase;
+      font-size: 1.25em;
+      display: block;
+      background: black;
+      color: white;
+      width: 100%;
+      text-align: center;
+      margin: 0;
+    }
+
+    .fieldset__header label {
+      font-size: 1.3em;
+      line-height: 1.7;
+      background: #e9e9e9;
+      position: relative;
+
+      &::before {
+        left: auto;
+        bottom: 21px;
+        top: auto;
+        right: -50px;
+      }
+    }
+  }
+
+  .questboard__callings {
+    grid-column: 3;
+    grid-row: 3 / span 2;
+  }
+
+  .questboard__ancestries,
+  .questboard__callings {
+    display: flex;
+
+		.fieldset__body {
+			padding: 8px 8px 12px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+		}
+
+		.field--input {
+			line-height: 16px;
+
+			label {
+				color: #e9e9e9;
+				font-size: 1.1em;
+			}
+
+			input {
+				font-size: 1.5em;
+				padding-right: 15px;
+				padding-left: 33px;
+				height: 16px;
+				font-size: 10pt;
+				font-family: $font-body;
+			}
+		}
+  }
+}

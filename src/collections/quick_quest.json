@@ -1,0 +1,114 @@
+{
+	"output":{
+		"filename":"giffyglyphs_quick_quest"
+	},
+	"meta": {
+		"version":"1.1.1",
+		"created":"December 2020",
+		"author":"Giffyglyph",
+		"title":{
+			"short":"Quick Quest",
+			"long":"Giffyglyph's Quick Quest"
+		},
+		"description":"Add some danger and grit to your D&D 5e games with Giffyglyph's Darker Dungeons modular ruleset.",
+		"keywords":[
+			"rpg",
+			"Giffyglyph",
+			"Quick Quest"
+		],
+		"urls":{
+			"pdf":"https://drive.google.com/file/d/1ufAyAnP4YTyJmOvyFQwnJZoTMTe95ETt/view"
+		}
+	},
+	"contents":[
+		{
+			"type":"SECTION",
+			"chapters":[
+				{
+					"filename":"rules",
+					"title":"Rules",
+					"id":"basic-rules",
+					"description":"Basic rules.",
+					"fragments":[
+						"sheet_character",
+						"sheet_quest"
+					]
+				}
+			]
+		}
+	],
+	"patrons":{
+		"total": 287,
+		"sigils": [
+			{
+				"name":"Ady Veisz Dragia",
+				"title":"Collector Enthusiast"
+			},
+			{
+				"name":"Alexander von Bose",
+				"title":""
+			},
+			{
+				"name":"Anthony Campla",
+				"title":""
+			},
+			{
+				"name":"Barkston",
+				"title":""
+			},
+			{
+				"name":"Birb Marrows",
+				"title":""
+			},
+			{
+				"name":"cappyCapslock",
+				"title":""
+			},
+			{
+				"name":"Dario Hajic",
+				"title":""
+			},
+			{
+				"name":"Dor Sivan",
+				"title":""
+			},
+			{
+				"name":"Faolan Twinbear",
+				"title":""
+			},
+			{
+				"name":"George",
+				"title":""
+			},
+			{
+				"name":"Hoots Kenku",
+				"title":""
+			},
+			{
+				"name":"JP Callahan Jr",
+				"title":""
+			},
+			{
+				"name":"Lex Raine",
+				"title":""
+			},
+			{
+				"name":"MickeyMinaj",
+				"title":""
+			},
+			{
+				"name":"Strider",
+				"title":"The Great Distrupter"
+			},
+			{
+				"name":"Tristan Bacinett",
+				"title":""
+			},
+			{
+				"name":"Velivanne",
+				"title":""
+			}
+		]
+	}
+}
+

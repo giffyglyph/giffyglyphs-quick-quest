@@ -1,0 +1,14 @@
+{
+  "name":"quick_quest",
+  "binder": {
+    "version": {
+      "minimum": "1.0.0",
+      "maximum": "1.0.0"
+    },
+    "formats": {
+      "quest": {
+        "languages": [ "en", "es", "fr" ]
+      }
+    }
+  }
+}

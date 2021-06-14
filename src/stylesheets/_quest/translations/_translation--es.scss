@@ -1,0 +1,26 @@
+[data-language="es"] {
+
+  .page--rules {
+
+    .success-check .icon {
+      display: none;
+    }
+  }
+
+  .page--sheet-character {
+
+    .sheet__header {
+      grid-template-columns: auto 160px 1fr 1fr 160px;
+    }
+  }
+
+  .page--sheet-questboard {
+
+    .sheet__header {
+
+      .sheet__logo .title {
+        font-size: 0.37em;
+      }
+    }
+  }
+}
